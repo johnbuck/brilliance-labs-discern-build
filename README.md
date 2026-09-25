@@ -18,6 +18,6 @@ Then upload the ZIP in your AI agent's skills settings.
 You'll need a GitHub account. Paste this into your AI agent:
 
 ```
-Add <path/to/my-skill-or-workflow> to https://github.com/johnbuck/brilliance-labs-discern-build
+Add my <name> skill to https://github.com/johnbuck/brilliance-labs-discern-build
 as a pull request.
 ```
