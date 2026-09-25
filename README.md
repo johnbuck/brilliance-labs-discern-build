@@ -1,14 +1,23 @@
 # Brilliance Labs Discern & Build
 
-Skills and workflows for the upcoming Brilliance Labs Discern & Build event.
+Skills and workflows for the Brilliance Labs Discern & Build event.
 
-- `skills/`: Claude skills, one folder per skill
-- `workflows/`: workflows, one folder per workflow
+## Get a skill
 
-## Using the skills
+To add a skill to Claude Desktop, paste this into the **Code** tab:
 
-No GitHub account needed. See [INSTALLING.md](INSTALLING.md) for copy-paste prompts that pull skills into Claude Desktop.
+```
+Download the <skill-name> skill from https://github.com/johnbuck/brilliance-labs-discern-build
+and save it as a ZIP in my Downloads folder, ready to upload to Claude.
+```
 
-## Adding skills or workflows
+Then go to **Customize → Skills → + → Upload a skill** and pick the ZIP.
 
-You'll need a GitHub account. See [CONTRIBUTING.md](CONTRIBUTING.md) for the folder rules and copy-paste prompts that let Claude Code open the pull request for you.
+## Add a skill or workflow
+
+You'll need a GitHub account. Paste this into Claude Code:
+
+```
+Add <path/to/my-skill-or-workflow> to https://github.com/johnbuck/brilliance-labs-discern-build
+as a pull request.
+```
