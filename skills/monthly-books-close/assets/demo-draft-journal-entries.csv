@@ -1,0 +1,17 @@
+# Fictional sample data. Cedar Hill Community Church, March 2026 close. DRAFT made by Claude; one line is flagged for the treasurer.
+Journal No,Journal Date,Account,Debits,Credits,Description,Name,Class
+Invest Income 26-03,2026-03-31,Investments:Reserve Investment Account,100.00,,Net of dividends and fee per March investment statement,,
+Invest Income 26-03,2026-03-31,Investment Fees,100.00,,Advisory fee per March investment statement,,Administration
+Invest Income 26-03,2026-03-31,Interest and Dividend Income,,200.00,Dividends per March investment statement,,
+Invest Unreal 26-03,2026-03-31,Investments:Reserve Investment Account,1200.00,,Market value change to tie to statement ending value 51300.00,,
+Invest Unreal 26-03,2026-03-31,Unrealized Gain (Loss) on Investments,,1200.00,Unrealized gain for March per investment statement,,
+Payroll Alloc 26-03,2026-03-31,Salaries and Wages:Pastoral Staff,3500.00,,Pastoral wages 70 percent per allocation table,,Worship and Ministries
+Payroll Alloc 26-03,2026-03-31,Salaries and Wages:Pastoral Staff,1500.00,,Pastoral wages 30 percent per allocation table,,Administration
+Payroll Alloc 26-03,2026-03-31,Salaries and Wages:Pastoral Staff,,5000.00,Clear unclassified pastoral wages from payroll sync,,
+Payroll Alloc 26-03,2026-03-31,Salaries and Wages:Office Staff,3000.00,,Office wages 100 percent per allocation table,,Administration
+Payroll Alloc 26-03,2026-03-31,Salaries and Wages:Office Staff,,3000.00,Clear unclassified office wages from payroll sync,,
+Online Gifts 26-03,2026-03-31,Online Giving Clearing,2910.00,,Clear March payout recorded from bank feed,,
+Online Gifts 26-03,2026-03-31,Payment Processing Fees,90.00,,March processing fees per online giving report,,Administration
+Online Gifts 26-03,2026-03-31,Contributions:General Offerings,,2350.00,March online gifts to General fund,,Worship and Ministries
+Online Gifts 26-03,2026-03-31,Contributions:Designated Gifts,,500.00,March online gifts to Missions fund,,Missions
+Online Gifts 26-03,2026-03-31,Contributions:Designated Gifts,,150.00,Gift note says youth trip. Confirm fund before posting,,FLAG-CLASS

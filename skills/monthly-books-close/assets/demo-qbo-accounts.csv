@@ -1,0 +1,18 @@
+# Fictional sample data. Account list as it might be exported from QuickBooks Online for Cedar Hill Community Church.
+Account,Type
+Checking,Bank
+Savings,Bank
+Investments:Reserve Investment Account,Other Current Asset
+Online Giving Clearing,Other Current Asset
+Contributions:General Offerings,Income
+Contributions:Designated Gifts,Income
+Interest and Dividend Income,Other Income
+Unrealized Gain (Loss) on Investments,Other Income
+Salaries and Wages:Pastoral Staff,Expense
+Salaries and Wages:Office Staff,Expense
+Payment Processing Fees,Expense
+Investment Fees,Expense
+Missions Giving,Expense
+Utilities,Expense
+Insurance,Expense
+Uncategorized Expense,Expense
