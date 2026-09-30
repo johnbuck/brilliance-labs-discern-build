@@ -1,0 +1,13 @@
+# Research run
+
+1. Confirm the active account/profile, passage, saved preferences, and selected verified resources. A different passage requires its own source records. Exact passage strings must match in source records and the packet input; use one consistent spelling throughout a run.
+2. Confirm selected books actually address the passage. Record relevance in the access evidence and confirm again when reading the source. Register source notes or permitted extracts with author, work, section locator, source link, retrieval method, coverage status, and limitations. The helper copies files and records checksums.
+3. Inspect coverage, including opening and closing verses, skipped headings, and truncation. Partial sources can be useful but remain visibly partial. If an access failure prevents retrieval, keep it in the limitations rather than creating a source record. With no usable sources, stop source-based generation and explain what is needed.
+4. Read the actual source files. Prepare a concise commentary brief per source, agreements/disagreements when multiple sources exist, historical/literary context, key terms supported by evidence, theological themes, and unresolved interpretive questions. Include FCF candidates or canonical connections if useful and consistent with the user’s preferences. Distinguish claims drawn from a commentator from the assistant’s synthesis. Do not make quotations or specialized linguistic claims from memory.
+5. Use the packet JSON schema in commands.md. Keep composition outside the packet. `kind` must be `research`. The helper rejects manuscript and homiletical-outline output kinds. The agent must review the actual prose too; a kind field cannot establish that prose is within scope.
+6. Build Markdown and DOCX. Check citations against sources, exact passage, partial-source labeling, and source register. If a renderer is available, inspect every page. The simple bundled DOCX uses Georgia, Letter pages, and one-inch margins. Respect user formatting changes while preserving readable hierarchy.
+7. Ask for one useful adjustment, save preferences, and report the output paths. Do not call retrieval freshly tested when rebuilding from saved notes.
+
+## Research packet contents
+
+Passage and research purpose, source-grounded commentary summaries, supported exegetical analysis, disagreements and uncertainties, questions for the user’s review, and a source register with actual access/retrieval/coverage limitations. Full Bible text is optional and depends on accessible permitted content; a verified passage link is sufficient. No full sermon, introduction, preaching structure, illustrations, or voice matching.
