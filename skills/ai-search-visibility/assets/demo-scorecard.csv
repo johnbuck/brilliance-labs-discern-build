@@ -1,0 +1,37 @@
+note,check_date,question_id,question,question_type,assistant,run_by,web_search,mentioned,accurate,what_was_wrong,sources_cited,checked_by_role,notes
+Fictional sample data,2026-09-01,Q01,What churches in Springfield are good for families with young kids?,city,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q01,What churches in Springfield are good for families with young kids?,city,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q01,What churches in Springfield are good for families with young kids?,city,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q02,"Are there any casual, friendly churches in Springfield?",city,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q02,"Are there any casual, friendly churches in Springfield?",city,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q02,"Are there any casual, friendly churches in Springfield?",city,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q03,Which churches near downtown Springfield have an 11 AM Sunday service?,city,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q03,Which churches near downtown Springfield have an 11 AM Sunday service?,city,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q03,Which churches near downtown Springfield have an 11 AM Sunday service?,city,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q04,Where can I get free groceries in Springfield on a Saturday?,need,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q04,Where can I get free groceries in Springfield on a Saturday?,need,Assistant B,user,yes,yes,partly,Says the pantry is open Fridays,directory.example.net,communications volunteer,Listed third of four options
+Fictional sample data,2026-09-01,Q04,Where can I get free groceries in Springfield on a Saturday?,need,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q05,Is there a food pantry in Springfield that doesn't require ID?,need,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q05,Is there a food pantry in Springfield that doesn't require ID?,need,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q05,Is there a food pantry in Springfield that doesn't require ID?,need,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q06,Where can a teenager find a weeknight youth group in Springfield?,need,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q06,Where can a teenager find a weeknight youth group in Springfield?,need,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q06,Where can a teenager find a weeknight youth group in Springfield?,need,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q07,I'm new in Springfield and don't know anyone. Where could I meet people?,need,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q07,I'm new in Springfield and don't know anyone. Where could I meet people?,need,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q07,I'm new in Springfield and don't know anyone. Where could I meet people?,need,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q08,Is there a Spanish-language Bible study in Springfield?,ministry type,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q08,Is there a Spanish-language Bible study in Springfield?,ministry type,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q08,Is there a Spanish-language Bible study in Springfield?,ministry type,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q09,What independent community churches are in Springfield?,ministry type,Assistant A,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q09,What independent community churches are in Springfield?,ministry type,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q09,What independent community churches are in Springfield?,ministry type,Assistant C,user,no,no,n/a,,none shown,communications volunteer,
+Fictional sample data,2026-09-01,Q10,What time are services at Cedar Hill Community Church?,name,Assistant A,user,yes,yes,partly,Lists 9:00 and 10:30 AM; 10:30 ended years ago,example.org/new-here,communications volunteer,
+Fictional sample data,2026-09-01,Q10,What time are services at Cedar Hill Community Church?,name,Assistant B,user,yes,yes,no,Says one service at 10:30 AM,directory.example.net,communications volunteer,
+Fictional sample data,2026-09-01,Q10,What time are services at Cedar Hill Community Church?,name,Assistant C,user,no,yes,partly,Lists 9:00 and 10:30 AM,none shown,communications volunteer,No web search; older information
+Fictional sample data,2026-09-01,Q11,Who is the pastor of Cedar Hill Community Church?,name,Assistant A,user,yes,yes,no,Names the previous pastor,directory.example.net,communications volunteer,
+Fictional sample data,2026-09-01,Q11,Who is the pastor of Cedar Hill Community Church?,name,Assistant B,user,yes,no,n/a,,other ministries' sites and directories,communications volunteer,
+Fictional sample data,2026-09-01,Q11,Who is the pastor of Cedar Hill Community Church?,name,Assistant C,user,no,no,n/a,,none shown,communications volunteer,Said it had no current information
+Fictional sample data,2026-09-01,Q12,What is Cedar Hill Community Church in Springfield known for?,name,Assistant A,user,yes,yes,partly,Mentions the food pantry but calls the church Baptist,directory.example.net; example.org/about-us,communications volunteer,
+Fictional sample data,2026-09-01,Q12,What is Cedar Hill Community Church in Springfield known for?,name,Assistant B,user,yes,yes,yes,,example.org/about-us; example.org/food-pantry,communications volunteer,Only fully accurate answer in the baseline
+Fictional sample data,2026-09-01,Q12,What is Cedar Hill Community Church in Springfield known for?,name,Assistant C,user,no,yes,partly,General description with no times or programs,none shown,communications volunteer,No web search
