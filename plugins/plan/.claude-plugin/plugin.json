@@ -1,0 +1,5 @@
+{
+  "name": "plan",
+  "version": "0.1.0",
+  "description": "Interactive planning skills that feed baton: spec (one clear backlog spec), roadmap (create + maintain a living roadmap that is also the epic index), scaffold (greenfield project skeleton). Clear, jargon-free, human-reviewable."
+}
