@@ -1,0 +1,5 @@
+interface:
+  display_name: "UNDR_SCOR Sermon Publisher"
+  short_description: "Turn recorded sermons into reviewed publishing packets"
+  brand_color: "#E8FF00"
+  default_prompt: "Use $sermon-publisher to set up my church's sermon publishing workflow, one question at a time."
