@@ -49,7 +49,7 @@ interview — the spec documents the reasoning, it doesn't decide unilaterally.
   queues), the mechanism and lifecycle.
 
 - **Configuration.** Env-var table: Variable | Default | Description. Every variable has a
-  default and a description; secrets come from Infisical, never committed.
+  default and a description; secrets come from a secrets manager, never committed.
 
 - **Project structure.** For new code, an annotated directory tree — every file with a one-line
   purpose, comprehensive enough to create the files from.

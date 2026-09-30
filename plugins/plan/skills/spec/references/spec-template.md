@@ -150,7 +150,7 @@ staging first, state the blast radius of any destructive step.
 - Authentication AND authorization model (who can do what).
 - Input validation / sanitization at trust boundaries.
 - Encryption in transit and at rest where applicable.
-- Secrets: which ones, stored where (Infisical), injected how — never in the repo.
+- Secrets: which ones, stored where (your secrets manager), injected how — never in the repo.
 - If this collects/processes/shares personal or external data, add a short table:
   Data type | Collected | Processed | Shared externally.
 

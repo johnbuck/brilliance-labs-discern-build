@@ -12,7 +12,7 @@ the heavy two-document ceremony.
 
 ## Names and identifiers (the hard rule)
 - Name everything by what it IS. A milestone is `live-roadmap-maintenance`, not `M2`. A
-  workstream is `wiley-migration`, not `C1`. A phase is `red-tests-first`, not `Step0`.
+  workstream is `warehouse-migration`, not `C1`. A phase is `red-tests-first`, not `Step0`.
 - Cryptic codes ossify into permanent, unreadable identifiers. Never create them.
 
 ## Ground truth before prose (the discipline that prevents drift)

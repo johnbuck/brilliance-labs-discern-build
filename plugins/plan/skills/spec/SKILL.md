@@ -19,7 +19,7 @@ It does **not** produce a PRD/TRD pair. One repo, one convention: backlog specs.
    technical term in plain language the first time it appears.
 2. **No cryptic permanent identifiers.** Never invent codes like `C1`, `H2`, `M2`, `Step0`,
    `unitB`, `phase-3.1`. Name everything by what it *is* — a milestone is
-   `live-roadmap-maintenance`, not `M2`; a workstream is `wiley-migration`, not `C1`. These
+   `live-roadmap-maintenance`, not `M2`; a workstream is `warehouse-migration`, not `C1`. These
    codes become permanent and unreadable. This is non-negotiable.
 
 (No emoji before headings. Avoid em-dash-heavy prose. Exclude any of these instructions from
