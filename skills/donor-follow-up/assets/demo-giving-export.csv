@@ -1,0 +1,13 @@
+donor_ref,first_name,gift_date,fund,amount_band,giver_type,label
+D-1001,Marisol,2026-09-02,General Fund,under $250,recurring,Fictional sample data
+D-1002,Kevin,2026-09-03,Neighborhood Grants Fund,$250-$999,first-time,Fictional sample data
+D-1003,Adaeze,2026-09-05,General Fund,$1000 and up,recurring,Fictional sample data
+D-1004,Luis,2026-09-07,Youth Mission Trip,under $250,first-time,Fictional sample data
+D-1005,Helen,2026-09-08,General Fund,under $250,returning,Fictional sample data
+D-1006,Graham,2026-09-10,Building Care,$250-$999,recurring,Fictional sample data
+D-1007,Mei,2026-09-12,Neighborhood Grants Fund,$1000 and up,first-time,Fictional sample data
+D-1008,Samuel,2026-09-14,General Fund,under $250,recurring,Fictional sample data
+D-1009,,2026-09-15,General Fund,under $250,first-time,Fictional sample data
+D-1010,Rosa,2026-09-18,Youth Mission Trip,$250-$999,returning,Fictional sample data
+D-1011,Isaac,2026-09-21,General Fund,$1000 and up,returning,Fictional sample data
+D-1012,Naomi,2026-09-24,General Fund,under $250,recurring,Fictional sample data
