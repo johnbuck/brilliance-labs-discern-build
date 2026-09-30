@@ -1,0 +1,15 @@
+# Fictional sample data. Cedar Hill Community Church. Fiscal year is January to December. 2026 year to date is January to August; the 2026 forecast is year to date plus the treasurer's estimate for September to December.
+Category,Type,2025 actual,2026 budget,2026 year to date,2026 forecast
+Tithes and offerings,income,232000,240000,150000,238000
+Online giving,income,30000,36000,25000,38000
+Designated gifts (missions),income,11000,12000,9000,13000
+Building use fees,income,6500,6000,3500,5500
+Interest,income,1000,1200,900,1300
+Staff salaries and benefits,expense,170000,178000,118000,178000
+Worship and ministries,expense,22500,24000,15500,23500
+Youth ministry,expense,9000,9600,8000,10000
+Missions giving,expense,17000,18000,11000,18000
+Facilities and utilities,expense,34500,36000,26000,38000
+Office and technology,expense,11500,12000,7800,11800
+Insurance,expense,4600,4800,3200,4800
+Sound equipment purchase,expense,0,0,1500,1500
