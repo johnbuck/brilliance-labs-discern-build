@@ -1,0 +1,21 @@
+{
+  "demo": true,
+  "church": "Example Community Church",
+  "title": "Remaining in Christ",
+  "date": "2026-09-27",
+  "preacher": "Jordan Lee",
+  "passage": "John 15:1–11",
+  "series": "Life in Christ",
+  "description": "This fictional teaching excerpt considers dependence on Christ, the Father's care, and the connection between abiding, love, obedience, and joy in John 15:1–11.",
+  "transcript_file": "demo-transcript.txt",
+  "transcript_status": "unreviewed",
+  "sources": {
+    "title": "Bundled fictional demonstration metadata; not a real service record",
+    "date": "Bundled fictional demonstration metadata; not a real service record",
+    "preacher": "Bundled fictional demonstration metadata; not a real service record",
+    "passage": "Bundled fictional demonstration metadata; not a real service record",
+    "series": "Bundled fictional demonstration metadata; not a real service record",
+    "description": "demo-transcript.txt, paragraphs 1–3; fictional summary",
+    "transcript": "demo-transcript.txt; authored demonstration excerpt, no recording"
+  }
+}
