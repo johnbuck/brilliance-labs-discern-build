@@ -1,0 +1,14 @@
+{
+  "demo": true,
+  "church": "Example Community Church",
+  "timezone": "America/Los_Angeles",
+  "issue_date": "2026-09-27",
+  "subject": "This week at Example Community Church",
+  "intro": "Join us this Sunday as we read John 15:1–11 together.",
+  "sermon": {"passage": "John 15:1–11", "preacher": "Jordan Lee", "source": "Fictional preaching-calendar fixture, row 2"},
+  "events": [
+    {"title": "Community lunch", "date": "2026-09-27", "time": "12:30 PM", "location": "Fellowship hall", "description": "Bring lunch and spend time together after the service.", "url": "https://example.org/community-lunch", "source": "Fictional public-calendar fixture, event 01"},
+    {"title": "Volunteer orientation", "date": "2026-10-03", "time": "10:00 AM", "location": "Welcome room", "description": "Learn about serving with the welcome team.", "url": "https://example.org/volunteers", "source": "Fictional public-calendar fixture, event 02"}
+  ],
+  "announcements": [{"title": "Weekly reading", "body": "Read John 15:1–11 before Sunday and note the questions you would like to explore.", "source": "Fictional editorial fixture, row 3"}]
+}

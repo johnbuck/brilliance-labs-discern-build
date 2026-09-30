@@ -1,0 +1,5 @@
+interface:
+  display_name: "UNDR_SCOR Church eNewsletter"
+  short_description: "Guided church newsletter setup and reviewed drafts"
+  brand_color: "#E8FF00"
+  default_prompt: "Use $church-enewsletter to help me set up my church newsletter one step at a time."
