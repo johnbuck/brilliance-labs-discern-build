@@ -1,0 +1,27 @@
+# The Brilliance Labs look for Streamlit (same colors and fonts as brilliance.css).
+# Streamlit reads this file automatically when you run the app from this folder.
+
+[theme]
+base = "light"
+primaryColor = "#E8860F"              # Brilliance orange: buttons, sliders, selected items
+backgroundColor = "#F5F2EB"           # warm cream page
+secondaryBackgroundColor = "#EDEAE2"  # panels and inputs
+textColor = "#1A1A1A"
+linkColor = "#9A5700"                 # darker orange, readable on cream
+borderColor = "rgba(13,13,13,0.16)"
+showWidgetBorder = true
+baseRadius = "none"                   # square corners everywhere
+buttonRadius = "none"
+dataframeHeaderBackgroundColor = "#EDEAE2"
+font = "DM Sans:https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap, sans-serif"
+headingFont = "Bebas Neue:https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap, Arial Narrow, sans-serif"
+headingFontWeights = 400
+headingFontSizes = ["4.5rem", "2.75rem", "1.75rem"]
+# Chart colors: tested to stay distinguishable for colorblind viewers
+chartCategoricalColors = ["#3d5ed2", "#E8860F", "#13874a", "#6b4fb3", "#d06a9a", "#8F5A12"]
+
+[client]
+toolbarMode = "minimal"               # hide the developer menu
+
+[browser]
+gatherUsageStats = false

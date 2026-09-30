@@ -1,0 +1,494 @@
+{
+  "title": "The Ministry Prompt Library",
+  "voice_line": "Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+  "risk_key": {
+    "green": "Use freely: low-stakes or internal",
+    "yellow": "Review every word before it goes out: public, people, or money"
+  },
+  "start_here": [
+    "bulletin-or-announcement-blurb",
+    "meeting-notes-to-decisions-and-owners",
+    "sermon-notes-to-small-group-guide"
+  ],
+  "prompts": [
+    {
+      "category": "Announcements & communication",
+      "title": "Bulletin or announcement blurb",
+      "risk": "yellow",
+      "use_when": "Something needs to go in this week's bulletin and you have only the facts.",
+      "prompt": "Act as the communications volunteer for my church. Write a short bulletin announcement for [EVENT OR NEWS]: [DETAILS: DATE, TIME, PLACE, WHO IT'S FOR, HOW TO SIGN UP]. Warm and inviting, under 80 words, with one clear next step. Leave a [CONFIRM] tag for any detail I haven't given you. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "bulletin-or-announcement-blurb",
+      "blanks": [
+        "EVENT OR NEWS",
+        "DETAILS: DATE, TIME, PLACE, WHO IT'S FOR, HOW TO SIGN UP"
+      ]
+    },
+    {
+      "category": "Announcements & communication",
+      "title": "One announcement, four places",
+      "risk": "yellow",
+      "use_when": "The same news needs to go in the bulletin, an email, a social post, and the pulpit announcements.",
+      "prompt": "Take this one announcement and write four versions: [PASTE THE NEWS]. A bulletin blurb (under 80 words), a short email, a social media post, and a 20-second version to read aloud from the front. Same facts in all four, friendly and clear. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "one-announcement-four-places",
+      "blanks": [
+        "PASTE THE NEWS"
+      ]
+    },
+    {
+      "category": "Announcements & communication",
+      "title": "Monthly newsletter",
+      "risk": "yellow",
+      "use_when": "You want to email the congregation but dread the blank page.",
+      "prompt": "Draft a short, warm email newsletter for [CHURCH OR MINISTRY NAME] from this month's happenings: [BULLET POINTS]. A friendly opening, 2 or 3 short sections, and one clear call to action. Skimmable and human. Leave [CONFIRM] tags for anything I haven't given you. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "monthly-newsletter",
+      "blanks": [
+        "CHURCH OR MINISTRY NAME",
+        "BULLET POINTS"
+      ]
+    },
+    {
+      "category": "Announcements & communication",
+      "title": "Event invitation and reminder",
+      "risk": "yellow",
+      "use_when": "You're hosting a gathering and need an invite now and a reminder later.",
+      "prompt": "Write an invitation for [EVENT]: [DATE, TIME, PLACE, WHO IT'S FOR, COST, HOW TO RSVP]. Make it welcoming to people who have never come before. Then write a short reminder to send three days before. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "event-invitation-and-reminder",
+      "blanks": [
+        "EVENT",
+        "DATE, TIME, PLACE, WHO IT'S FOR, COST, HOW TO RSVP"
+      ]
+    },
+    {
+      "category": "Announcements & communication",
+      "title": "Subject line and headline options",
+      "risk": "green",
+      "use_when": "You wrote the email but the subject line is stuck.",
+      "prompt": "Give me 10 subject line options for this message: [WHAT IT'S ABOUT]. Mix clear-and-simple with a few warmer ones. Short and honest, no clickbait. Mark the 3 strongest and say why in a few words. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "subject-line-and-headline-options",
+      "blanks": [
+        "WHAT IT'S ABOUT"
+      ]
+    },
+    {
+      "category": "Welcome & connection",
+      "title": "Welcome a first-time visitor",
+      "risk": "yellow",
+      "use_when": "Someone filled out a connection card and you want to follow up personally.",
+      "prompt": "Draft a short, personal welcome note to someone who visited [CHURCH NAME] for the first time on [DATE]. What we know: [ANYTHING THEY SHARED, LIKE KIDS OR INTERESTS]. Thank them for coming, mention one or two next steps that fit them, and make it easy to reply. No pressure. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "tweak": "Use only what they chose to share on the card. Don't paste anything more personal than that.",
+      "id": "welcome-a-first-time-visitor",
+      "blanks": [
+        "CHURCH NAME",
+        "DATE",
+        "ANYTHING THEY SHARED, LIKE KIDS OR INTERESTS"
+      ]
+    },
+    {
+      "category": "Welcome & connection",
+      "title": "Invite someone into a small group",
+      "risk": "yellow",
+      "use_when": "You'd love someone to join a group but don't want it to feel like a sales pitch.",
+      "prompt": "Help me invite [FIRST NAME] to join [GROUP NAME], which meets [WHEN AND WHERE]. Why I thought of them: [REASON]. Write a short, genuine message that explains what the group is like, what a first visit looks like, and that it's fine to say no. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "invite-someone-into-a-small-group",
+      "blanks": [
+        "FIRST NAME",
+        "GROUP NAME",
+        "WHEN AND WHERE",
+        "REASON"
+      ]
+    },
+    {
+      "category": "Welcome & connection",
+      "title": "New member welcome packet",
+      "risk": "green",
+      "use_when": "New members keep asking the same questions in their first month.",
+      "prompt": "Create a one-page welcome guide for new members of [CHURCH NAME]. Include: service times [TIMES], how to get connected [GROUPS, MINISTRIES], who to contact for what [NAMES AND ROLES], and 3 easy first steps. Friendly and simple. Leave [CONFIRM] for anything I haven't given you.",
+      "id": "new-member-welcome-packet",
+      "blanks": [
+        "CHURCH NAME",
+        "TIMES",
+        "GROUPS, MINISTRIES",
+        "NAMES AND ROLES"
+      ]
+    },
+    {
+      "category": "Volunteers & teams",
+      "title": "Recruit volunteers",
+      "risk": "yellow",
+      "use_when": "A ministry needs more hands and the usual announcement isn't working.",
+      "prompt": "Write a warm, specific ask for volunteers for [MINISTRY OR EVENT]. What they'd do: [TASKS], how much time: [COMMITMENT], who it's great for: [SKILLS OR NONE NEEDED]. Make it clear that small commitments are welcome, and give one easy way to say yes. Give me a bulletin version and a personal text version. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "recruit-volunteers",
+      "blanks": [
+        "MINISTRY OR EVENT",
+        "TASKS",
+        "COMMITMENT",
+        "SKILLS OR NONE NEEDED"
+      ]
+    },
+    {
+      "category": "Volunteers & teams",
+      "title": "Volunteer role description",
+      "risk": "green",
+      "use_when": "A role lives in one person's head and you need to write it down.",
+      "prompt": "Turn these rough notes into a clear volunteer role description: [PASTE NOTES]. Include what the role is for, what a typical week or Sunday looks like, the time commitment, who they report to, and what training they'll get. One page, encouraging, plain language.",
+      "id": "volunteer-role-description",
+      "blanks": [
+        "PASTE NOTES"
+      ]
+    },
+    {
+      "category": "Volunteers & teams",
+      "title": "Thank a volunteer team",
+      "risk": "green",
+      "use_when": "A team gave a lot and deserves more than a generic thank-you.",
+      "prompt": "Write a heartfelt thank-you from [SENDER NAME] to [TEAM NAME] for [WHAT THEY DID]. Mention specific moments: [DETAILS]. Keep it short, sincere, and specific, and say what their work made possible. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "thank-a-volunteer-team",
+      "blanks": [
+        "SENDER NAME",
+        "TEAM NAME",
+        "WHAT THEY DID",
+        "DETAILS"
+      ]
+    },
+    {
+      "category": "Volunteers & teams",
+      "title": "Volunteer schedule from a list",
+      "risk": "green",
+      "use_when": "You have names, dates, and availability and need a fair rota.",
+      "prompt": "Here are my volunteers and when they're available: [PASTE LIST]. Build a fair schedule for [MINISTRY] covering [DATES OR WEEKS], with [NUMBER] people per slot. Spread the load evenly, respect everyone's availability, and flag any slot that's short-staffed.",
+      "id": "volunteer-schedule-from-a-list",
+      "blanks": [
+        "PASTE LIST",
+        "MINISTRY",
+        "DATES OR WEEKS",
+        "NUMBER"
+      ]
+    },
+    {
+      "category": "Volunteers & teams",
+      "title": "Turn a task into a training sheet",
+      "risk": "green",
+      "use_when": "Someone new is taking over a job and needs to learn it.",
+      "prompt": "Turn this task into a simple training sheet a new volunteer could follow: [DESCRIBE THE TASK ROUGHLY]. Steps in order, common mistakes, what 'done right' looks like, and who to ask for help. One page, plain language.",
+      "id": "turn-a-task-into-a-training-sheet",
+      "blanks": [
+        "DESCRIBE THE TASK ROUGHLY"
+      ]
+    },
+    {
+      "category": "Giving & stewardship",
+      "title": "Thank-you letter to a donor",
+      "risk": "yellow",
+      "use_when": "A gift came in and you want the thank-you to feel personal, not form-letter.",
+      "prompt": "Draft a warm thank-you letter from [SENDER NAME AND ROLE] to a donor who gave to [FUND OR PURPOSE]. Say specifically what their gift makes possible: [IMPACT]. Grateful, personal, and short. Don't mention the amount unless I include it. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "tweak": "Leave out amounts and anything from the giving records unless your church's policy allows it. Fill in the name yourself after.",
+      "id": "thank-you-letter-to-a-donor",
+      "blanks": [
+        "SENDER NAME AND ROLE",
+        "FUND OR PURPOSE",
+        "IMPACT"
+      ]
+    },
+    {
+      "category": "Giving & stewardship",
+      "title": "Giving campaign update",
+      "risk": "yellow",
+      "use_when": "You're partway through a campaign and want to encourage without pressure.",
+      "prompt": "Write a short update on our [CAMPAIGN NAME]. Where we are: [PROGRESS], what it's for: [PURPOSE], what's next: [NEXT STEPS]. Lead with gratitude and impact, not guilt or pressure. One clear, gentle invitation to give. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "giving-campaign-update",
+      "blanks": [
+        "CAMPAIGN NAME",
+        "PROGRESS",
+        "PURPOSE",
+        "NEXT STEPS"
+      ]
+    },
+    {
+      "category": "Giving & stewardship",
+      "title": "Explain the budget to the congregation",
+      "risk": "yellow",
+      "use_when": "The finance committee approved a budget and people deserve a plain explanation.",
+      "prompt": "Explain our [YEAR] budget in plain language for the congregation: [PASTE THE MAIN NUMBERS OR CATEGORIES]. What it pays for, what changed from last year and why, and how giving connects to ministry. Honest and clear, no jargon. Leave [CONFIRM] for any number you're unsure of.",
+      "id": "explain-the-budget-to-the-congregation",
+      "blanks": [
+        "YEAR",
+        "PASTE THE MAIN NUMBERS OR CATEGORIES"
+      ]
+    },
+    {
+      "category": "Giving & stewardship",
+      "title": "Grant application answer",
+      "risk": "yellow",
+      "use_when": "A grant form asks a big question and you have only notes.",
+      "prompt": "Help me answer this grant application question: [PASTE THE QUESTION]. About our ministry and project: [NOTES: WHO WE SERVE, WHAT WE'LL DO, BUDGET, EXPECTED RESULTS]. Clear, specific, and within [WORD LIMIT] words. Use concrete numbers where I've given them and leave [CONFIRM] where I haven't. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "id": "grant-application-answer",
+      "blanks": [
+        "PASTE THE QUESTION",
+        "NOTES: WHO WE SERVE, WHAT WE'LL DO, BUDGET, EXPECTED RESULTS",
+        "WORD LIMIT"
+      ]
+    },
+    {
+      "category": "Pastoral care (drafting only)",
+      "title": "Sympathy or care note",
+      "risk": "yellow",
+      "use_when": "Someone is grieving or going through something hard, and you want the words to be right.",
+      "prompt": "Help me write a short, gentle card to [FIRST NAME], who is going through [GENERAL SITUATION, E.G. THE LOSS OF A PARENT]. From [SENDER]. Warm and sincere, no cliches or quick fixes, and a simple offer of support. I will rewrite it in my own hand. Write plainly, the way a real person talks: no em dashes, no buzzwords, no clichés.",
+      "tweak": "Keep it general. Never paste confidential pastoral details, counseling notes, or health information. The card, the call, and the visit are yours to give in person.",
+      "id": "sympathy-or-care-note",
+      "blanks": [
+        "FIRST NAME",
+        "GENERAL SITUATION, E.G. THE LOSS OF A PARENT",
+        "SENDER"
+      ]
+    },
+    {
+      "category": "Pastoral care (drafting only)",
+      "title": "Prepare for a hard conversation",
+      "risk": "yellow",
+      "use_when": "You're meeting with someone about something difficult and want to think it through.",
+      "prompt": "I have a difficult conversation coming up about [GENERAL TOPIC, NO NAMES]. Help me prepare: what the other person might be feeling, questions I could ask, things to avoid saying, and how to end with a clear, kind next step. Talking points, not a script.",
+      "tweak": "Preparation only. The conversation itself is yours. Leave out names and anything confidential.",
+      "id": "prepare-for-a-hard-conversation",
+      "blanks": [
+        "GENERAL TOPIC, NO NAMES"
+      ]
+    },
+    {
+      "category": "Teaching & formation",
+      "title": "Sermon notes to small-group guide",
+      "risk": "yellow",
+      "use_when": "Sunday's message should keep going in small groups during the week.",
+      "prompt": "Turn these sermon notes into a small-group discussion guide: [PASTE NOTES, TEXT, MAIN POINTS]. Include a one-paragraph recap, 5 or 6 discussion questions that move from easy to deeper, one practical application for the week, and a closing prayer prompt. Plain language for mixed ages.",
+      "tweak": "Scripture and theology stay under your review before anyone sees them.",
+      "id": "sermon-notes-to-small-group-guide",
+      "blanks": [
+        "PASTE NOTES, TEXT, MAIN POINTS"
+      ]
+    },
+    {
+      "category": "Teaching & formation",
+      "title": "Bible study questions",
+      "risk": "yellow",
+      "use_when": "You're leading a study and want good questions ready.",
+      "prompt": "Write discussion questions for a Bible study on [PASSAGE] for [GROUP, E.G. YOUNG ADULTS]. Include observation questions (what does it say), interpretation questions (what does it mean), and application questions (how do we live it). Note any passages where I should check commentaries myself.",
+      "id": "bible-study-questions",
+      "blanks": [
+        "PASSAGE",
+        "GROUP, E.G. YOUNG ADULTS"
+      ]
+    },
+    {
+      "category": "Teaching & formation",
+      "title": "Adapt a lesson for kids",
+      "risk": "yellow",
+      "use_when": "You have adult material and need a version for children.",
+      "prompt": "Adapt this lesson for kids ages [AGES]: [PASTE THE LESSON OR MAIN POINT]. Give me a simple explanation in their words, a short activity or game, 3 questions to ask them, and a take-home idea for families. Keep it active and short.",
+      "id": "adapt-a-lesson-for-kids",
+      "blanks": [
+        "AGES",
+        "PASTE THE LESSON OR MAIN POINT"
+      ]
+    },
+    {
+      "category": "Teaching & formation",
+      "title": "Explain it simply",
+      "risk": "green",
+      "use_when": "A concept keeps confusing people and you want a clearer way to say it.",
+      "prompt": "Explain [TOPIC OR TERM] in plain language for [AUDIENCE, E.G. NEW BELIEVERS, TEENAGERS]. Give me a one-sentence version, a short paragraph, and an everyday example or analogy. Flag anything where traditions or denominations differ.",
+      "id": "explain-it-simply",
+      "blanks": [
+        "TOPIC OR TERM",
+        "AUDIENCE, E.G. NEW BELIEVERS, TEENAGERS"
+      ]
+    },
+    {
+      "category": "Meetings & administration",
+      "title": "Meeting notes to decisions and owners",
+      "risk": "green",
+      "use_when": "You have messy notes and need to know who does what.",
+      "prompt": "Turn these meeting notes into something useful: [PASTE]. Give me a short summary, the decisions we made, action items with an owner for each, and any open questions. Flag anything that didn't get a clear owner.",
+      "id": "meeting-notes-to-decisions-and-owners",
+      "blanks": [
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Meetings & administration",
+      "title": "Council or board agenda",
+      "risk": "green",
+      "use_when": "The meeting is next week and you need a focused agenda.",
+      "prompt": "Build an agenda for our [COUNCIL OR TEAM] meeting on [DATE], [LENGTH] long. Topics: [LIST]. Put decisions first, give each item a time and an owner, and include an opening prayer and a closing recap of who does what.",
+      "id": "council-or-board-agenda",
+      "blanks": [
+        "COUNCIL OR TEAM",
+        "DATE",
+        "LENGTH",
+        "LIST"
+      ]
+    },
+    {
+      "category": "Meetings & administration",
+      "title": "Rough notes to a procedure (SOP)",
+      "risk": "green",
+      "use_when": "A process lives in someone's head and needs to be written down.",
+      "prompt": "Turn these rough notes into a clear step-by-step procedure someone new could follow: [PASTE]. Steps in order, common mistakes, what 'done right' looks like, and when to stop and ask. Under one page, plain language.",
+      "id": "rough-notes-to-a-procedure-sop",
+      "blanks": [
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Meetings & administration",
+      "title": "Office FAQ",
+      "risk": "green",
+      "use_when": "The same questions keep eating the office's time.",
+      "prompt": "Here are questions people keep asking the church office: [PASTE]. Write clear, friendly answers as a one-page FAQ. Where an answer depends on a policy, date, or fee I haven't given you, leave a [CONFIRM] tag.",
+      "id": "office-faq",
+      "blanks": [
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Meetings & administration",
+      "title": "'What to do when...' guide",
+      "risk": "green",
+      "use_when": "Something happens now and then, and it's handled differently every time.",
+      "prompt": "Write a simple 'what to do when [SITUATION] happens' guide for our staff and volunteers: [HOW WE HANDLE IT NOW]. Clear steps, who to contact, and when to escalate. Calm and easy to follow under pressure.",
+      "id": "what-to-do-when-guide",
+      "blanks": [
+        "SITUATION",
+        "HOW WE HANDLE IT NOW"
+      ]
+    },
+    {
+      "category": "Money & reports",
+      "title": "Plain-English money summary",
+      "risk": "yellow",
+      "use_when": "You exported a report and your eyes glaze over.",
+      "prompt": "Here's a summary of our [INCOME / EXPENSES] for [PERIOD], with no names: [PASTE TOTALS OR CATEGORIES]. In plain English, tell me where the money went, the biggest items, how it compares to budget if I've included it, and anything worth a second look. Just describe; no financial advice.",
+      "tweak": "Paste category totals, not individual donors or giving records.",
+      "id": "plain-english-money-summary",
+      "blanks": [
+        "INCOME / EXPENSES",
+        "PERIOD",
+        "PASTE TOTALS OR CATEGORIES"
+      ]
+    },
+    {
+      "category": "Money & reports",
+      "title": "Explain a financial report",
+      "risk": "green",
+      "use_when": "The treasurer sent something and you want to actually understand it.",
+      "prompt": "Explain this report like I don't have a finance background: [PASTE OR DESCRIBE]. What each main number means, whether it looks healthy or concerning, and the 2 or 3 things our council should pay attention to. No jargon.",
+      "id": "explain-a-financial-report",
+      "blanks": [
+        "PASTE OR DESCRIBE"
+      ]
+    },
+    {
+      "category": "Planning & discernment",
+      "title": "Pros, cons, and questions",
+      "risk": "green",
+      "use_when": "You're weighing a decision and want to think it through clearly.",
+      "prompt": "Help me think through a decision: [DESCRIBE IT]. Give me the main pros and cons, the questions we should answer before deciding, who else should be part of the conversation, and any risk we might be overlooking. Don't tell me what to do. Help me see it clearly.",
+      "tweak": "AI can clarify options. Discerning God's call belongs to you, prayer, and your community.",
+      "id": "pros-cons-and-questions",
+      "blanks": [
+        "DESCRIBE IT"
+      ]
+    },
+    {
+      "category": "Planning & discernment",
+      "title": "Big goal to a weekly plan",
+      "risk": "green",
+      "use_when": "You have a goal and a date but no path.",
+      "prompt": "Break this goal into a realistic week-by-week plan: [GOAL AND DEADLINE]. Small, concrete steps for busy volunteers and staff, do first whatever unblocks the rest, and flag where we'll need help, approval, or money.",
+      "id": "big-goal-to-a-weekly-plan",
+      "blanks": [
+        "GOAL AND DEADLINE"
+      ]
+    },
+    {
+      "category": "Planning & discernment",
+      "title": "Pre-mortem: what could go wrong",
+      "risk": "green",
+      "use_when": "You're about to launch something and want to catch problems early.",
+      "prompt": "We're about to [DESCRIBE THE PLAN]. Imagine it's six months later and it went badly. What most likely went wrong, what would we wish we'd checked first, and what are the 3 simplest things we can do now to lower the risk?",
+      "id": "pre-mortem-what-could-go-wrong",
+      "blanks": [
+        "DESCRIBE THE PLAN"
+      ]
+    },
+    {
+      "category": "Planning & discernment",
+      "title": "Brain dump to a prioritized list",
+      "risk": "green",
+      "use_when": "Your head is full and you don't know where to start.",
+      "prompt": "Here's everything on my mind right now: [DUMP IT ALL]. Organize it into a clear to-do list, group similar things, mark what's urgent versus what can wait, and tell me the one thing to do first tomorrow.",
+      "id": "brain-dump-to-a-prioritized-list",
+      "blanks": [
+        "DUMP IT ALL"
+      ]
+    },
+    {
+      "category": "Polish & editing",
+      "title": "Un-AI it: make it sound human",
+      "risk": "yellow",
+      "use_when": "Something reads stiff, generic, and robotic.",
+      "prompt": "Rewrite this so it sounds like a real person wrote it, not AI: [PASTE TEXT]. Strip out em dashes, buzzwords, and cliches (like 'delve', 'unlock', 'elevate', 'in today's fast-paced world'). Use plain words, varied sentence length, and a natural voice. Keep my meaning and every fact exactly as they are, and don't add anything I didn't say.",
+      "tweak": "Paste an AI draft back in and run this to de-robotify it.",
+      "id": "un-ai-it-make-it-sound-human",
+      "blanks": [
+        "PASTE TEXT"
+      ]
+    },
+    {
+      "category": "Polish & editing",
+      "title": "Fix the tone",
+      "risk": "yellow",
+      "use_when": "The message is fine but the tone is off.",
+      "prompt": "Rewrite this to be [WARMER / MORE PROFESSIONAL / SHORTER / GENTLER]: [PASTE]. Keep my meaning, don't add claims I didn't make, and keep it sounding human, with no em dashes or buzzwords.",
+      "id": "fix-the-tone",
+      "blanks": [
+        "WARMER / MORE PROFESSIONAL / SHORTER / GENTLER",
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Polish & editing",
+      "title": "Shorten and simplify",
+      "risk": "green",
+      "use_when": "It's too long and people won't read it.",
+      "prompt": "Make this shorter and easier to read without losing the point: [PASTE]. Aim for plain English around a 9th-grade reading level, cut filler, and break up any wall of text. Tell me roughly how much shorter it got.",
+      "id": "shorten-and-simplify",
+      "blanks": [
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Polish & editing",
+      "title": "Proofread without changing my voice",
+      "risk": "green",
+      "use_when": "You want it correct, but still in your own words.",
+      "prompt": "Proofread this for spelling, grammar, and clarity only: [PASTE]. Fix mistakes and awkward phrasing, but keep my wording and voice as much as possible. Briefly list what you changed.",
+      "id": "proofread-without-changing-my-voice",
+      "blanks": [
+        "PASTE"
+      ]
+    },
+    {
+      "category": "Polish & editing",
+      "title": "Translate for our Spanish-speaking members",
+      "risk": "yellow",
+      "use_when": "An announcement needs to reach members who prefer Spanish.",
+      "prompt": "Translate this into natural, warm Spanish for a church audience: [PASTE]. Keep names, dates, and times exactly as they are. Then list any phrases where a native speaker should double-check the wording.",
+      "tweak": "Have a fluent member review it before it goes out.",
+      "id": "translate-for-our-spanish-speaking-members",
+      "blanks": [
+        "PASTE"
+      ]
+    }
+  ],
+  "note_on_confirm": "[CONFIRM] inside a prompt is not a blank: it tells the AI to tag any detail it doesn't know."
+}
