@@ -1,0 +1,15 @@
+note,current_url,page_title,what_is_on_it,forms,embeds,last_updated,observations
+Fictional sample data,https://www.example.org/,Home,Welcome slideshow; old sermon series banner,none,video,2 years ago,Service times not visible without scrolling
+Fictional sample data,https://www.example.org/about-us,About Us,History; mission statement; statement of faith,none,none,5 years ago,Mission statement matches the brief
+Fictional sample data,https://www.example.org/staff,Our Staff,Six staff bios with photos,none,none,4 years ago,Two people listed have left
+Fictional sample data,https://www.example.org/new-here,New Here?,Short welcome paragraph,none,none,6 years ago,Lists a 10:30 AM service that no longer exists
+Fictional sample data,https://www.example.org/kids,Kids,Kids program description,none,none,3 years ago,No check-in or safety information
+Fictional sample data,https://www.example.org/youth,Youth,Youth group info and sign-up,youth event sign-up (name; parent email; phone; event),none,1 year ago,Form sends to a former staff email address
+Fictional sample data,https://www.example.org/food-pantry,Food Pantry,Pantry hours and volunteer info,none,map,1 year ago,Hours match the brief
+Fictional sample data,https://www.example.org/sermons,Sermons,Audio archive by date,none,audio player,last month,About five years of audio
+Fictional sample data,https://www.example.org/events,Events,Calendar list,none,calendar,3 months ago,Shows past events at the top
+Fictional sample data,https://www.example.org/give,Give,Link to online giving,none,giving button,2 years ago,Keep the giving link exactly as is
+Fictional sample data,https://www.example.org/prayer,Prayer Requests,Prayer request form,prayer request (name; email; request; share with prayer team yes/no),none,2 years ago,Sensitive: do not open submissions
+Fictional sample data,https://www.example.org/contact,Contact,Address; phone; email; map,general contact (name; email; message),map,2 years ago,Phone number matches the brief
+Fictional sample data,https://www.example.org/files/newsletter-current.pdf,Monthly newsletter (PDF),Newsletter file linked from emails,none,none,last month,Linked from many old emails; needs a redirect
+Fictional sample data,https://www.example.org/vbs-2021,VBS 2021,Past summer event page,registration (closed),none,5 years ago,Candidate to drop with a redirect to Events
