@@ -1,8 +1,7 @@
 # secrets-guard
 
 One maintained codebase for the secret-leak guard, shared across Claude Code, OpenCode,
-and pi. Edit a rule once in the core; all three harnesses update. Spec:
-`homelab/backlog/2026-07-29-shared-secret-leak-guard-codebase.md`.
+and pi. Edit a rule once in the core; all three harnesses update.
 
 ## Layout
 
