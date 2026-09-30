@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source",
+  "description": "A research source with stable identity. source_id = sha256(canonical_locator)[:16].",
+  "type": "object",
+  "required": ["source_id", "canonical_locator", "raw_url", "title", "source_type", "metadata_status", "registered_at"],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "sha256(canonical_locator)[:16] — stable across edits and continuation"
+    },
+    "canonical_locator": {
+      "type": "string",
+      "description": "Canonical identifier: doi:10.1038/..., arxiv:2305.14251, or normalized URL (lowercase scheme and host, no fragment or trailing slash, tracking params removed, remaining query params sorted by key and kept)"
+    },
+    "raw_url": {
+      "type": "string",
+      "description": "Original URL as retrieved, before normalization"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "default": null
+    },
+    "published_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "default": null,
+      "description": "ISO 8601 date (YYYY-MM-DD) the source was published or last updated; null when unknown"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["web", "academic", "documentation", "code", "news", "government", "book"]
+    },
+    "metadata_status": {
+      "type": "string",
+      "enum": ["unverified", "doi_verified", "url_verified", "title_matched"],
+      "description": "How far metadata has been verified"
+    },
+    "registered_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when source was registered (access date)"
+    },
+    "supersedes": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "Optional: source_id of the row this correction supersedes. Stores are append-only — a correction is a re-appended row naming the row it replaces."
+    }
+  },
+  "additionalProperties": false
+}
