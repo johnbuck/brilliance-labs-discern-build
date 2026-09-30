@@ -1,0 +1,7 @@
+{
+  "_comment": "The PreToolUse hook entry install.sh merges into claude/settings.json. __HOME__ is resolved to the real $HOME at install time (same token claude/install.sh uses). The adapter + its sibling core are deployed to ~/.claude/hooks/ by install.sh (secrets-guard.mjs + secrets-guard-rules.mjs).",
+  "matcher": "Bash|Read",
+  "hooks": [
+    { "type": "command", "command": "node __HOME__/.claude/hooks/secrets-guard.mjs" }
+  ]
+}
