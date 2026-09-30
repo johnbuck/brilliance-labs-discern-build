@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Example Page | Brilliance Labs Style</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400..600;1,400..600&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap">
+<link rel="stylesheet" href="brilliance.css">
+</head>
+<body>
+<!-- Every component in brilliance.css, in the order the homepage uses them.
+     Copy the sections you need, drop the rest. -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="site-nav" aria-label="Main">
+  <a href="#" class="nav-logo"><img src="logo.png" alt="Brilliance Labs" width="186" height="28"></a>
+  <!-- No logo? Use a wordmark instead:
+  <a href="#" class="nav-wordmark">Grace Chapel<span>.</span></a> -->
+  <ul class="nav-links">
+    <li><a href="#about" aria-current="page">About</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#updates">Updates</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#give" class="nav-cta">Give Now</a>
+</nav>
+
+<main id="main">
+  <!-- HERO: big uppercase title, orange dash, one-sentence lede, two buttons -->
+  <section class="hero">
+    <div class="hero-rule-v" aria-hidden="true"></div>
+    <div class="hero-rule-h" aria-hidden="true"></div>
+    <p class="hero-eyebrow">Bringing bright ideas into dark spaces</p>
+    <h1 class="hero-title">Brilliance<span class="hero-dash" aria-hidden="true"></span>Ignited</h1>
+    <div class="hero-bottom">
+      <p class="hero-lede">A Christian nonprofit innovation lab based in Portland, Oregon.</p>
+      <p class="hero-subtext">Where faith, technology, and entrepreneurship meet.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#programs">Explore Our Work</a>
+        <a class="btn btn-ghost" href="#give">Give to the Lab</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAND: proof in numbers -->
+  <div class="stats-band">
+    <div>
+      <span class="stats-band-eyebrow">Portland Grants · 2022 to 2026</span>
+      <h2 class="stats-band-title">Five Years of<br>Micro-Grants</h2>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>$263,710</strong><span>Awarded</span></div>
+      <div class="stat"><strong>53</strong><span>Grants</span></div>
+      <div class="stat"><strong>42</strong><span>Organizations</span></div>
+      <div class="stat"><strong>9</strong><span>Rounds</span></div>
+    </div>
+  </div>
+
+  <!-- MISSION: split section header + prose -->
+  <section class="section" id="about">
+    <div class="section-inner section-head--split">
+      <div>
+        <p class="eyebrow">Our Mission</p>
+        <h2 class="section-title">Upstream<br>Solutions</h2>
+      </div>
+      <div class="prose">
+        <p class="section-lede" style="margin-top:0">We equip Christian leaders to discover and deploy upstream solutions to hard and neglected problems.</p>
+        <p style="margin-top:24px">Research surfaces a hard problem. Consulting and grants put solutions into practice. Media spreads what worked.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDS: numbered hairline grid -->
+  <section class="section section--alt" id="programs">
+    <div class="section-inner">
+      <div class="display-head">
+        <h2 class="display-title">Our<br>Programs</h2>
+        <span class="display-aside">What We're Building</span>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="#">
+          <span class="card-num">01</span>
+          <span class="card-tag">Community · Grants</span>
+          <div class="card-bar"></div>
+          <h3 class="card-title">Portland<br>Grants</h3>
+          <p class="card-body">Micro-grants of $1,000 to $7,000 for churches, nonprofits, and grassroots projects.</p>
+        </a>
+        <a class="card" href="#" style="--card-fill: var(--green); --card-ink: var(--green-ink);">
+          <span class="card-num">02</span>
+          <span class="card-tag">Training · Research</span>
+          <div class="card-bar"></div>
+          <h3 class="card-title">Bitcoin for<br>Missions</h3>
+          <p class="card-body">Design labs, training, and a practitioner network for missionaries in the field.</p>
+        </a>
+        <a class="card" href="#" style="--card-fill: var(--gold); --card-ink: var(--gold-ink);">
+          <span class="card-num">03</span>
+          <span class="card-tag">AI · Integration</span>
+          <div class="card-bar"></div>
+          <h3 class="card-title">Ignite AI<br>Consulting</h3>
+          <p class="card-body">We help ministries decide where AI fits and build tools their own staff can run.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POST CARDS: news / updates / events -->
+  <section class="section" id="updates">
+    <div class="section-inner">
+      <div class="display-head">
+        <h2 class="display-title">From<br>the Lab</h2>
+        <a class="link-arrow" href="#">All Updates →</a>
+      </div>
+      <div class="post-grid">
+        <article class="post-card post-card--current">
+          <span class="post-type">Now Open · Grants</span>
+          <h3 class="post-title">Fall Micro-Grant Round</h3>
+          <p class="post-excerpt">Open to nonprofits, churches, and grassroots projects. Applications close October 23.</p>
+          <a class="post-action" href="#">Apply by Oct 23 →</a>
+        </article>
+        <article class="post-card">
+          <span class="post-type">Research</span>
+          <h3 class="post-title">A Christ-Centered Framework for AI</h3>
+          <p class="post-excerpt">A living guide that keeps prayer, discernment, and community at the center.</p>
+          <a class="post-action" href="#">Read the Framework →</a>
+        </article>
+        <article class="post-card">
+          <span class="post-type">Event</span>
+          <h3 class="post-title">Discern &amp; Build</h3>
+          <p class="post-excerpt">A one-day conference and hands-on build lab for ministry leaders.</p>
+          <a class="post-action" href="#">Register →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="section section--alt">
+    <div class="section-inner">
+      <blockquote class="pull-quote">Bringing bright ideas into dark spaces. We call that Brilliance — Ignited.</blockquote>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="section" id="contact">
+    <div class="section-inner grid-2">
+      <div>
+        <p class="eyebrow">Get in Touch</p>
+        <h2 class="section-title">Contact<br>Us</h2>
+        <p class="section-lede">Tell us what you're working on. We read every note.</p>
+      </div>
+      <form onsubmit="event.preventDefault(); this.querySelector('.hint').textContent='Thanks! (This demo form does not send anything.)';">
+        <div class="field"><label for="n">Your name</label><input class="input" id="n" required></div>
+        <div class="field"><label for="e">Email</label><input class="input" id="e" type="email" required></div>
+        <div class="field"><label for="m">Message</label><textarea class="textarea" id="m"></textarea></div>
+        <button class="btn btn-dark" type="submit">Send Message</button>
+        <p class="hint" role="status" style="margin-top:12px"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- DARK BAND: the closing call to action -->
+  <section class="dark-band on-dark" id="give">
+    <div style="max-width:720px">
+      <p class="dark-band-eyebrow">Support the Work</p>
+      <h2 class="dark-band-title">Give to<br>Brilliance Labs</h2>
+      <p class="dark-band-text">Gifts from people like you fund grants, design labs overseas, research, and training for ministry leaders.</p>
+      <a class="btn btn-primary" href="#">Choose How to Give →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <p class="footer-logo">Brilliance<span>.</span></p>
+      <p class="footer-tagline">Brilliance — Ignited</p>
+      <p class="footer-meta">A 501(c)(3) nonprofit<br>Portland, Oregon</p>
+    </div>
+    <div class="footer-col">
+      <h2 class="footer-h">Programs</h2>
+      <a href="#">Portland Grants</a><a href="#">Bitcoin for Missions</a><a href="#">Ignite AI</a>
+    </div>
+    <div class="footer-col">
+      <h2 class="footer-h">Connect</h2>
+      <a href="#">About</a><a href="#">Updates</a><a href="#">Give</a>
+    </div>
+    <div class="footer-col">
+      <h2 class="footer-h">Contact</h2>
+      <a href="#">Email us</a><span>Portland, Oregon</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Brilliance Labs. All rights reserved.</p>
+    <p>Brilliance — Ignited</p>
+  </div>
+</footer>
+</body>
+</html>
