@@ -1,0 +1,6 @@
+interface:
+  display_name: "UNDRSCOR Sermon Research"
+  short_description: "Guided research using your own Logos library"
+  default_prompt: "Use $sermon-research-guide to set up research with my own Logos library, one step at a time."
+policy:
+  allow_implicit_invocation: true
