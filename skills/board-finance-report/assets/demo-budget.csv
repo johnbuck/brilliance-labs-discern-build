@@ -1,0 +1,14 @@
+# Fictional sample data. Cedar Hill Community Church, board-approved budget for the first quarter of 2026 (January to March).
+Category,Type,Amount
+Tithes and offerings,income,60000
+Online giving,income,9000
+Designated gifts (missions),income,3000
+Building use fees,income,1500
+Interest,income,300
+Staff salaries and benefits,expense,36000
+Worship and ministries,expense,6000
+Youth ministry,expense,2400
+Missions giving,expense,4500
+Facilities and utilities,expense,9000
+Office and technology,expense,3000
+Insurance,expense,1200
