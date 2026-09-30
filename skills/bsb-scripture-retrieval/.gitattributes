@@ -1,0 +1,2 @@
+# Keep the documented data checksum stable on every checkout platform.
+assets/bsb_smart.json text eol=lf
