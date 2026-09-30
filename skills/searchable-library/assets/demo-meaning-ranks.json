@@ -1,0 +1,11 @@
+{
+  "note": "Fictional sample data. An illustrative ranking of the demo passages, standing in for what a local meaning (embedding) search might return. It was written by hand for practice, not produced by a model.",
+  "query": "What have we said about burnout?",
+  "ranked_ids": [
+    "2026-03-15-rest-for-the-weary:p1-3",
+    "2026-03-15-rest-for-the-weary:p4-5",
+    "2026-04-19-welcome-the-stranger:p4-5",
+    "2026-01-11-mercies-in-the-morning:p4-5",
+    "2026-02-08-who-is-my-neighbor:p4-5"
+  ]
+}
