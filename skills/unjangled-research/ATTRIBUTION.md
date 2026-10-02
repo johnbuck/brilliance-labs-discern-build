@@ -57,4 +57,8 @@ The four schemas vendor from 199-bio @ f2f2c0f and adapt only where fields contr
 | 10 | `claim.schema.json` | `section_id` description rewritten from upstream report-section examples (`executive_summary`, `finding_1`, `synthesis`) to the AD-7 definition: kebab-case slug of the `scope.md` sub-question the claim answers (`general` if none) | Upstream's examples contradicted the adopted `claim_id` hash-input rule — two authoritative texts would produce different `claim_id`s for the same claim |
 | 11 | `source.schema.json` | `registered_at` description gained "(access date)" | Matches the spine's freshness convention: publication date in `published_at`, access date in `registered_at` |
 
-`evidence_store.py` is vendored verbatim (attribution header prepended; shebang preserved) except for the v3.3 `check` subcommand noted above — see the Evidence layer section.
+`evidence_store.py` is vendored verbatim (attribution header prepended; shebang preserved) except for the v3.3 `check` subcommand noted above — see the Evidence layer section. `scripts/final_pass.py` (v3.4) is original work for this skill — no upstream.
+
+## v3.4 note
+
+`scripts/final_pass.py` is locally authored (2026-10-01), stdlib only. It exists because two independent smoke runs (hermes/DeepSeek-v4-pro) self-declared Final-Pass PASS on runs an independent verifier failed; its checks are exactly the mechanically-decidable classes that recurred. Validated against both smoke runs: it reproduces every relevant finding from both verifier reports with no false positives after tuning (schema-optional keys, year tokens, dict-shaped artifact_paths).
