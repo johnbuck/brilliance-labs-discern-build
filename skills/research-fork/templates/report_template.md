@@ -331,15 +331,17 @@ CITATION TRACKING (CRITICAL):
 
 ## Appendix: Methodology
 
-### Research Process
+### How claims were vetted
 
-[2-3 paragraphs describing the research process in detail]
+[1-2 paragraphs, epistemics only: how sources were evaluated for trust, how
+claims were tied to evidence, what was verified independently. NO pipeline
+mechanics — never name scripts, phases, storage, manifests, harness details,
+or tool fallbacks. Process detail lives in the run manifest, not here.]
 
-**Phase Execution:**
-- Phase 1 (SCOPE): [What was done]
-- Phase 2 (PLAN): [What was done]
-- Phase 3 (RETRIEVE): [What was done]
-- [Continue for all phases executed]
+**Evidence standards:**
+- Claims rated by source independence and method strength
+- Direct quotes byte-verified against fetched sources
+- Contested claims flagged with the disagreement stated
 
 ### Sources Consulted
 
