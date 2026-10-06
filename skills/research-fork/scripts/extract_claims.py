@@ -148,12 +148,27 @@ def extract_sentences(text: str) -> list[str]:
     text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)  # bold
     text = re.sub(r'\*([^*]+)\*', r'\1', text)  # italic
 
+    # Strip the bibliography section entirely — its entries are citations, not claims
+    bib_split = text.split('## Bibliography', 1)
+    if len(bib_split) > 1:
+        after_bib = bib_split[1]
+        next_section = after_bib.find('\n## ')
+        if next_section > 0:
+            # Bibliography is not last: keep pre-bib + post-bib sections
+            text = bib_split[0] + after_bib[next_section:]
+        else:
+            # Bibliography is last: keep only pre-bib content
+            text = bib_split[0]
+
     sentences = SENTENCE_RE.split(text)
     result = []
     for s in sentences:
         s = s.strip()
-        # Filter out very short fragments, headings, empty lines
+        # Filter out very short fragments, headings, empty lines, and bibliography-entry patterns
         if len(s) > 30 and not s.startswith('#') and not s.startswith('|'):
+            # Skip bibliography-style entries: "[N] Author(s) (year). Title..."
+            if re.match(r'^\[\d+\]\s', s):
+                continue
             result.append(s)
     return result
 

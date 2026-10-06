@@ -33,7 +33,6 @@ def convert_markdown_to_html(markdown_text: str) -> Tuple[str, str]:
             content_md = parts[0] + '\n' + post_bib_md
         else:
             bibliography_md = after_bib
-    bibliography_md = parts[1] if len(parts) > 1 else ""
 
     # Convert content (everything except bibliography)
     content_html = _convert_content_section(content_md)
