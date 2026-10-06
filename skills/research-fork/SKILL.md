@@ -70,7 +70,7 @@ Mode Selection
 - `python scripts/validate_report.py --report [path]`
 - `python scripts/verify_citations.py --report [path]`
 - `python scripts/verify_citations_v2.py --dir [run_dir]` (independent second network citation check)
-- `python scripts/readability_check.py [report_path]` (CAP-4 readability gate — must exit 0 before publishing; failures tell you exactly what to fix: pipeline-internals leakage → move narration to run manifest, citation density → keep 1-2 refs/sentence, batch the rest at paragraph level)
+- `python scripts/readability_check.py [report_path]` (**MANDATORY — run on EVERY report, every time, before HTML/PDF generation; never skip, no exceptions.** Requires `textstat` — `pip install -r requirements.txt` if missing. Must exit 0; failures tell you exactly what to fix: pipeline-internals leakage → move narration to run manifest; citation density → 1-2 refs/sentence, batch the rest at paragraph level; sentence length / reading grade → split compound sentences, unchain appositive lists, prefer plain words)
 - `python scripts/md_to_html.py [markdown_path]`
 
 ---
