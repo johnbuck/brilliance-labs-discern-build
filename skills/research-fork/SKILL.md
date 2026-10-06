@@ -1,5 +1,5 @@
 ---
-name: research-fork
+name: unjangled-research
 description: Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report generation. Triggers on "deep research", "comprehensive analysis", "research report", "compare X vs Y", "analyze trends", or "state of the art". Not for simple lookups, debugging, or questions answerable with 1-2 searches.
 ---
 
@@ -64,6 +64,7 @@ Mode Selection
 - Report structure: [report_template.md](./templates/report_template.md) (default fallback)
 - HTML styling: [mckinsey_report_template.html](./templates/mckinsey_report_template.html)
 - **Format selection:** Before assembling the report, consult [format-selection.md](./references/format-selection.md) to choose the appropriate template from [references/report-templates/](./references/report-templates/) based on the question type. Use the default template only when no format-specific template matches.
+- **Citation density:** Cite the 1–2 most authoritative sources inline per sentence. Batch additional supporting sources at the paragraph or finding level, not per sentence. A sentence carrying 3+ bracketed references is unreadable to a human reader.
 
 **Scripts:**
 - `python scripts/validate_report.py --report [path]`
