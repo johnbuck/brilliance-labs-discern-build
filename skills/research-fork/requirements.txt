@@ -1,6 +1,10 @@
 # Deep Research Skill Dependencies
 #
-# Core: Python 3.9+ standard library only. No pip install needed.
+# Core: Python 3.9+ standard library, plus:
+#
+# textstat — REQUIRED by scripts/readability_check.py (CAP-4b standard
+#   readability formulas: Flesch-Kincaid, sentence-length gates)
+#   Install: pip install textstat
 #
 # Optional tools (not Python packages):
 #
@@ -12,3 +16,4 @@
 # weasyprint — PDF generation from HTML reports
 #   Install: pip install weasyprint
 #   Used by: reference/html-generation.md (Phase 8 PDF output)
+textstat>=0.7
