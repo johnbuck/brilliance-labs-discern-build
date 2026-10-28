@@ -5,7 +5,9 @@ This skill is no longer vendored in the skills library.
 **Canonical home:** https://github.com/johnbuck/unjangled-research
 
 Install from there (self-contained: scripts, schemas, templates, vendored
-textstat — no pip dependencies beyond Python 3.9+). The standalone repo is
+textstat — no pip dependencies beyond Python 3.10+):
+
+    git clone https://github.com/johnbuck/unjangled-research.git ~/.claude/skills/unjangled-research The standalone repo is
 the single source of truth; versions v1.0 through v1.6 were vendored here
 before the move (see merged PRs #25-#28 for that history).
 
